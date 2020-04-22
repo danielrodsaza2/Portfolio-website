@@ -1,0 +1,358 @@
+body {
+  font-family: Raleway, helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+<style type="text/css">
+.form-style-1 {
+	margin:10px auto;
+	max-width: 400px;
+	padding: 20px 12px 10px 20px;
+	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-1 li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+.form-style-1 label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+	font-weight: bold;
+}
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea, 
+select{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	padding: 7px;
+	margin:0px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;	
+}
+.form-style-1 input[type=text]:focus, 
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus, 
+.form-style-1 select:focus{
+	-moz-box-shadow: 0 0 8px #88D5E9;
+	-webkit-box-shadow: 0 0 8px #88D5E9;
+	box-shadow: 0 0 8px #88D5E9;
+	border: 1px solid #88D5E9;
+}
+.form-style-1 .field-divided{
+	width: 49%;
+}
+
+.form-style-1 .field-long{
+	width: 100%;
+}
+.form-style-1 .field-select{
+	width: 100%;
+}
+.form-style-1 .field-textarea{
+	height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+	background: #4B99AD;
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+	background: #4691A4;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+.form-style-1 .required{
+	color:red;
+}
+
+.smaller-image {
+    border-radius: 40px;
+	margin-top:-100px;
+	margin-bottom: 95px;
+	margin-left: 25px;
+  }
+
+.bigger-image {
+    border-radius: 40px;
+	margin-top:-100px;
+	margin-bottom: 95px;
+	margin-left: 25%;
+  }
+/* Global */
+
+.container {
+    width: 80%;
+	margin: auto;
+    overflow: hidden;
+	
+
+   
+
+}
+.container2 {
+    width: 80%;
+	
+  overflow: hidden;
+	margin-top: -150px;
+	margin-left: 120px;
+	
+	
+}
+
+.containerimages {
+	width:100%;
+	margin: auto;
+	overflow: hidden
+	
+	
+}
+#id {
+	font-family: Lobster
+}
+
+.hero  {
+    font-size: 40px;
+    text-align: center;
+    font-family: Lobster;
+    color: #303030;
+}
+
+#sidekick {
+	
+	text-align: center;
+	font-size: 20px;
+	padding:  0px;
+	margin-top: -40px;
+}
+
+#sidekickabout {
+	
+	text-align: center;
+	font-size: 40px;
+	padding:  0px;
+	margin-left: 20px;
+}
+
+.textprofile {
+	
+	margin-top: 0px;
+	margin-bottom: 80px;
+	padding-left: 230px;
+	padding-top: -200px;
+	padding-right: 20px;
+}
+
+.titleprofile {
+	
+	margin-top: -250px;
+	font-size: 30px;
+	font-family: Lobster;
+	padding-left: 600px;
+	padding-top: -200px;
+	padding-right: 20px;
+
+}
+
+.resumeprofile {
+	
+	
+	font-size: 20px;
+	text-decoration: underline;
+	padding-left: 630px;
+	padding-top: -20px;
+	padding-right: 20px;
+	margin-top: -65px;
+
+}
+.imageprofile {
+	border-radius: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.dark {
+  padding: 15px;
+  background: #CACACA;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 50px;
+	border-radius: 30px;
+}
+
+/* Header */
+
+header {
+  background: linear-gradient(90deg, rgba(115,40,173,1) 4%, rgba(34,175,177,1) 45%, rgba(25,173,236,1) 98%);
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 400px;
+  
+}
+
+header a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #my_logo {
+  float: left;
+}
+
+header #my_logo h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight {
+    color: #FFFFFF;
+    font-family: Lobster;
+	font-size: 40px;
+}
+
+header .current a {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+header a:hover {
+    color: #F9F9F9;
+    font-weight: bold;
+}
+
+/* Background Image */
+
+#showcase {
+  min-height: 400px;
+  background: url('https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&h=350') no-repeat center;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+#showcase h1 {
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+/* Boxes */
+
+#boxes {
+  margin-top: -80px;
+	padding: -30px;
+	margin-left: -100px;
+}
+
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 50%;
+  
+ 
+}
+
+#boxes .box img {
+	width: 50px;}
+	
+	
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+	.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.portfolio photos 
+	
+	
+
+
+/* About Me Page*/
+
+img {
+    width: 120px;
+    height: 150px;
+    border: 1px solid #D4D4D4;
+}
+
+footer {
+  padding: 1.5em;
+  width: 100%;
+  background-color: #D4D4D4;
+  text-align: center;
+}
+
+/* Media Queries */
+
+@media(max-width: 600px) {
+  header #my_logo,
+  header nav,
+  header nav li
+  #boxes .box,
+  article#main-col {
+    float: none;
+    text-align:end;
+    width: 100%;
+  }
+
+  header {
+    padding-bottom: 20px;
+  }
+
+  #showcase h1 {
+    margin-top: 40px;
+  }
+	
+	
+}
